@@ -3,50 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Save the Date - Our Wedding</title>
+    <title>Save the Date</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
+            background-color: #f8f9fa;
             color: #333;
             text-align: center;
-        }
-        header {
-            background-color: #61c0ff;
-            color: #fff;
-            padding: 20px 0;
-        }
-        main {
             padding: 20px;
         }
-        .date {
-            font-size: 2em;
-            color: #61c0ff;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        h1 {
+            color: #ff6f61;
+        }
+        .date {
+            font-size: 24px;
+            color: #6c757d;
+        }
+        .location {
+            font-size: 20px;
+            color: #6c757d;
+        }
+        .image {
+            margin: 20px 0;
+        }
+        .image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #6c757d;
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Save the Date</h1>
-        <h2>We're Getting Married!</h2>
-    </header>
-    <main>
-        <p>We are excited to announce our wedding date!</p>
         <p class="date">July 04, 2025</p>
-        <p>More details to follow. We can't wait to celebrate with you!</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Our Wedding</p>
-    </footer>
+        <p class="location">LWL-Freilichtmuseum Detmold</p>
+        <div class="image">
+            <img src="https://www.rolandpolczer.de/wp-content/uploads/2019/09/20-56843-post/062.jpg" alt="Wedding Image">
+        </div>
+        <p>We are excited to celebrate our special day with you. More details to follow!</p>
+        <div class="footer">
+            <p>With love,</p>
+            <p>Dominik, Svenja & Malou</p>
+        </div>
+    </div>
 </body>
 </html>
