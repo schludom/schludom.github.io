@@ -5,7 +5,6 @@ import Subpage from './pages/Subpage'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <HashRouter>
