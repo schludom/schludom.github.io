@@ -11,6 +11,14 @@ const Homepage = () => {
         <h3 className="slide-in">June 15, 2025</h3>
         <p className="fade-in">at the beautiful</p>
         <h3 className="slide-in">Sunset Beach Resort, Malibu, CA</h3>
+        <div className="details">
+          <p className="fade-in">Join us for a celebration of love, laughter, and happily ever after.</p>
+          <p className="fade-in">Reception to follow the ceremony.</p>
+          <p className="fade-in">Dress code: Beach formal</p>
+        </div>
+        <div className="rsvp">
+          <button className="rsvp-button">RSVP</button>
+        </div>
       </div>
     </div>
   );
