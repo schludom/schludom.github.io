@@ -4,7 +4,7 @@ const Subpage = () => {
 
   return (
       <div>
-        hello
+        Subpage
     </div>
   )
 }
