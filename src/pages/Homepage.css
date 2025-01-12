@@ -10,15 +10,40 @@
 
 }
 
+.header {
+  z-index: -1; /*change to 1 if it should be at top */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  height:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer {
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  height:50px;
+
+}
+
 
 .background-image {
   opacity: 0.8;
   filter: blur(4px);
   position: relative;
+  z-index: -2;
 
 }
 
 .card {
+  z-index: 0;
   background-color: #fafafaef;
   width: 60%;
   position: absolute;
