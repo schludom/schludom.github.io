@@ -35,11 +35,11 @@
   font-family: Brush Script MT, Brush Script Std, cursive	;
   color: rgb(129, 129, 129);
   letter-spacing: 0.5rem;
-  font-size: 20pt;
+  font-size: 18pt;
   font-weight: 600;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1280px) {
 .names {
   font-size: 40pt;
 }
@@ -55,7 +55,7 @@
   }
   
 
-@media (min-width: 720px) {
+@media (min-width: 1280px) {
 .text {  font-size: 14pt;
 
 
