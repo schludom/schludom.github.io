@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  height: 100vh;
   overflow: hidden;
 
 
@@ -14,8 +15,6 @@
   opacity: 0.8;
   filter: blur(4px);
   position: relative;
-
-
 
 }
 
