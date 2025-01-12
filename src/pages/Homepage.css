@@ -9,7 +9,7 @@
 .background-image {
   opacity: 0.8;
   filter: blur(4px);
-  height: 100wh;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,8 +19,7 @@
 
 .card {
   background-color: #fafafaef;
-  width: 500px;
-  height: 600px;
+  width: 40%;
   position: absolute;
   transform: rotate(-5deg); 
   border-radius: 5px;
