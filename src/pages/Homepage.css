@@ -1,43 +1,57 @@
-.announcement-container {
-    text-align: center;
-    padding: 50px;
-    background: linear-gradient(to right, #ffecd2, #fcb69f);
-    color: #333;
-    font-family: 'Arial, sans-serif';
-  }
-  
-  .announcement {
-    margin-bottom: 30px;
-  }
-  
-  .fade-in {
-    animation: fadeIn 2s ease-in;
-  }
-  
-  .slide-in {
-    animation: slideIn 2s ease-in;
-  }
-  
-  .calendar-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes slideIn {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
+.container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.background-image {
+  opacity: 0.8;
+  filter: blur(4px);
+  height: 100wh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.card {
+  background-color: #fafafaef;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  transform: rotate(-5deg); 
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(87, 87, 87);
+  text-align: center;
+	border: 70px solid rgba(0, 0, 255, 0);
+	border-image-source: url(https://www.creativefabrica.com/wp-content/uploads/2022/12/31/Flower-one-line-drawing-minimalism-art-Graphics-55570909-1-1-580x386.png );
+}
+
+.names {
+
+  font-family: Brush Script MT, Brush Script Std, cursive	;
+  color: rgb(129, 129, 129);
+  letter-spacing: 0.5rem;
+  font-size: 40pt;
+  font-weight: 600;
+
+}
+
+.text {
+
+  font-family: Didot, serif		;
+  color: rgb(129, 129, 129);
+  font-size: 14pt;
+  font-weight: normal;
+
+}
+
+.card-image {
+  width: 100px;
+  opacity: 0.7;
+
+}
+

@@ -3,24 +3,31 @@ import "./Homepage.css"
 const Homepage = () => {
 
   return (
-    <div className="announcement-container">
-      <div className="announcement">
-        <h1 className="fade-in">We're Getting Married!</h1>
-        <h2 className="slide-in">John Doe & Jane Smith</h2>
-        <p className="fade-in">We are thrilled to announce our wedding on</p>
-        <h3 className="slide-in">June 15, 2025</h3>
-        <p className="fade-in">at the beautiful</p>
-        <h3 className="slide-in">Sunset Beach Resort, Malibu, CA</h3>
-        <div className="details">
-          <p className="fade-in">Join us for a celebration of love, laughter, and happily ever after.</p>
-          <p className="fade-in">Reception to follow the ceremony.</p>
-          <p className="fade-in">Dress code: Beach formal</p>
-        </div>
-        <div className="rsvp">
-          <button className="rsvp-button">RSVP</button>
-        </div>
-      </div>
+  <div className="container">
+    <div className="background-image" >
+        <img 
+        src="https://www.gaerten-in-westfalen.de/media/filer_public_thumbnails/filer_public/4f/dd/4fdd9bcb-69f9-4bda-ac17-6b1688579a47/detmold_lwl_freilichtmuseum_detmold_unbekannt_2009_1.jpg__1920x920_q90_crop_subject_location-831%2C554_subsampling-2_upscale.jpg" 
+        alt="Wedding Announcement"
+        />
     </div>
+    <div className="card">
+      <p className="names">Svenja & Dominik </p>
+      <p className="text">Der schönste Tag in unserem Leben soll nicht ohne unsere Familien und Freunde vergehen.</p>
+      <br/>
+        <img 
+        className="card-image"
+        src="https://www.pngall.com/wp-content/uploads/14/Vine-Tattoo-PNG-Clipart.png"
+        />
+      <br/>
+      <br/>
+
+      <p className="text">4. Juli, 2025</p>
+      <p className="text">LWL Freilichtmuseum Detmold</p>
+      <br/>
+      <br/>
+      <p className="text">Weitere Details in Kürze.</p>
+    </div>
+  </div>
   );
 };
 
