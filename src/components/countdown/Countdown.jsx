@@ -45,10 +45,10 @@ const Countdown = ({ targetDate }) => {
 
     return (
         <div className='timer-container'>
-            <TimerComponent value={timeLeft.days} unit={"DAYS"}/>
-            <TimerComponent value={timeLeft.hours} unit={"HOURS"}/>
-            <TimerComponent value={timeLeft.minutes} unit={"MINUTES"}/>
-            <TimerComponent value={timeLeft.seconds} unit={"SECONDS"}/>
+            <TimerComponent value={timeLeft.days} unit={"TAGE"}/>
+            <TimerComponent value={timeLeft.hours} unit={"STUNDEN"}/>
+            <TimerComponent value={timeLeft.minutes} unit={"MINUTEN"}/>
+            <TimerComponent value={timeLeft.seconds} unit={"SEKUNDEN"}/>
         </div>
     );
 };
