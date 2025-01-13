@@ -12,7 +12,6 @@
 
 .header {
   z-index: -1; /*change to 1 if it should be at top */
-  position: fixed;
   top: 0;
   width: 100%;
   background-color: white;
@@ -29,8 +28,10 @@
   bottom: 0;
   width: 100%;
   background-color: white;
-  height:50px;
-
+  height:75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

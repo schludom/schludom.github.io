@@ -1,4 +1,5 @@
 import Countdown from "../components/countdown/Countdown";
+import Navbar from "../components/navbar/Navbar";
 import "./Homepage.css"
 
 const Homepage = () => {
@@ -7,9 +8,10 @@ const Homepage = () => {
 
 
   return (
+    <>
+    <Navbar />    
     <div className="container">
       <div className="header">
-      <Countdown targetDate={targetDate}/>
       </div>
       <img
         className="background-image"
@@ -31,9 +33,10 @@ const Homepage = () => {
         <p className="text">Weitere Details in Kürze.</p>
       </div>
       <div className="footer">
-
+      <Countdown targetDate={targetDate}/>
       </div>
     </div>
+    </>
   );
 };
 
