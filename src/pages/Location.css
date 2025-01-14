@@ -1,10 +1,16 @@
 .location-container {
 
-    display: flex;
-    padding-top: 65px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: white;
+	hyphens: auto; 
+	text-align: justify
 
+}
+
+.location-image {
+
+    width: 100%;
 
 }
