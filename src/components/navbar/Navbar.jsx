@@ -20,6 +20,10 @@ const theme = createTheme({
             contrastText: '#818181',
         },
     },
+    typography: {
+        "fontFamily": "font-family: Didot, serif",
+        "fontSize": 12,
+       }
 });
 
 const Navbar = () => {
@@ -64,9 +68,10 @@ const Navbar = () => {
                         onClose={handleClose}
                     >
                         <MenuItem component={Link} to="/" onClick={handleClose}>Save the Date</MenuItem>
-                        <MenuItem component={Link} to="/location" onClick={handleClose}>Location & Anfahrt</MenuItem>
                         <MenuItem component={Link} to="/zeitplan" onClick={handleClose}>Zeitplan der Hochzeit</MenuItem>
+                        <MenuItem component={Link} to="/location" onClick={handleClose}>Location & Anfahrt</MenuItem>
                         <MenuItem component={Link} to="/uebernachtung" onClick={handleClose}>Übernachtungsoptionen</MenuItem>
+                        <MenuItem component={Link} to="/geschenke" onClick={handleClose}>Geschenkeliste</MenuItem>
                     </Menu>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         Team Schlüter

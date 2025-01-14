@@ -1,11 +1,12 @@
 .body {
   margin: 0 0;
   padding: 0 0;
-
 }
 
 #root {
   width: 100vw;
   height: 100vh;
+  font-family: Didot, serif;
+  color: rgb(129, 129, 129);
 
 }

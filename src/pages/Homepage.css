@@ -58,7 +58,6 @@
 
 .names {
   font-family: Brush Script MT, Brush Script Std, cursive	;
-  color: rgb(129, 129, 129);
   letter-spacing: 0.5rem;
   font-size: 18pt;
   font-weight: 600;
@@ -72,10 +71,7 @@
 
 .text {
   
-    font-family: Didot, serif		;
-    color: rgb(129, 129, 129);
-    font-size: 10pt;
-    font-weight: normal;
+    font-size: 12pt;
   
   }
   
