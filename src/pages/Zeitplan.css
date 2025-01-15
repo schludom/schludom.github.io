@@ -1,0 +1,17 @@
+.zeitplan-container {
+
+    /* display: flex; */
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+	hyphens: auto; 
+	text-align: justify
+
+}
+
+.zeitplan-image {
+
+    width: 100%;
+
+}
