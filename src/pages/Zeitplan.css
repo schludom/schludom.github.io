@@ -6,7 +6,8 @@
     padding-right: 20px;
     background-color: white;
 	hyphens: auto; 
-	text-align: justify
+	text-align: justify;
+    height: 100vh;
 
 }
 
