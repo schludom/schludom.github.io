@@ -43,6 +43,21 @@
 
 }
 
+.savethedatecard {
+
+  z-index: 0;
+  background-color: #fafafaef;
+  opacity: 0.95;
+  width: 75%;
+  position: absolute;
+  transform: rotate(-5deg); 
+  /* border-radius: 5px; */
+  box-shadow: 4px 4px 10px rgb(87, 87, 87);
+  text-align: center;
+  filter: brightness(102%);
+
+}
+
 .card {
   z-index: 0;
   background-color: #fafafaef;
